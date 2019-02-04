@@ -6,3 +6,10 @@ Author: Jeff Kondas
 Author URI: jeffkondas.com
 Version: 1.0
 */
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+
+body {
+  padding-top: 4.5rem;
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+  color: #001A33;
+}
