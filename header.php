@@ -16,6 +16,9 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <?php wp_head(); ?>
+    
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+    
 </head>
 <body <?php body_class(); ?>>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
